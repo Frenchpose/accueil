@@ -1,0 +1,98 @@
+body
+{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+#main_bloc
+{
+	width: 1640px;
+	margin: auto;
+}
+
+h3
+{
+	text-decoration-line: underline;
+}
+
+#frenchposé_logo
+{
+	width: 200px;
+	height: auto;
+}
+
+/*balises composées*/
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+		margin-left: 300px;
+		margin-right: 50px;
+
+}
+
+nav ul li
+{
+	border: 2px solid white;
+	padding: 15px;
+}
+
+/*conteneurs*/
+
+#conteneur1
+{
+	background-color: #FF000a;
+	display: flex;
+}
+
+#conteneur1_1
+{
+	display: flex;
+	flex: 1;
+}
+
+#conteneur1_2
+{
+	display: flex;
+	flex: 10;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#conteneur2
+{
+	background-color: #E32636;
+}
+
+#conteneur2_1
+{
+	text-align: center;
+	margin-bottom: 55px;
+	justify-content: flex-end;
+}
+
+#conteneur3, #conteneur5
+{
+	background-color: #BB0B0B;
+	display: flex;
+	justify-content: center;
+}
+
+#conteneur6
+{
+	background-color: #BB0B0B;
+}
+
+#conteneur4
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #850606;
+}
+
+/* $FrenchPosé */
